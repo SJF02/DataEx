@@ -1,7 +1,7 @@
 name: dataEx
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
   - python=3.9.11
   - conda=4.14.0
@@ -18,3 +18,6 @@ dependencies:
   - scikit-learn=1.0.2
   - seaborn=0.11.2
   - wordcloud=1.8.1
+  - pip:
+      - konlpy==0.6.0
+      - pydataset==0.2.0
